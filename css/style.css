@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+img {
+  width: 200px;
+}
+
+label,
+option,
+select,
+textarea {
+  display: block;
+}
+form {
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  resize: none;
+}
+
+textarea {
+  margin: 0 auto;
+}
+
+select {
+  margin: 0px auto 15px;
+}
+button {
+  background: black;
+  color: white;
+  border: none;
+  width: 100px;
+  padding: 7px 0px;
+  border-radius: 10px;
+  transition: all 0.25s ease-in-out;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: rgb(82, 21, 118);
+  color: white;
+}
+
+fieldset legend::first-letter {
+  color: rgb(82, 21, 118);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset textarea:focus {
+  background-color: green;
+}
+
+fieldset label:nth-child(2) {
+  color: rgb(82, 21, 118);
+}
