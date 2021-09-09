@@ -66,9 +66,12 @@ fieldset {
 }
 
 fieldset textarea:focus {
-  background-color: green;
+  background-color: rgba(101, 102, 101, 0.308);
 }
 
 fieldset label:nth-child(2) {
-  color: rgb(82, 21, 118);
+  color: rgba(0, 0, 0, 0.952);
+}
+fieldset input[type="nome"]:disabled {
+  background: blue;
 }
